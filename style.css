@@ -1,0 +1,236 @@
+main{
+    overflow-x: hidden !important;
+}
+main>nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed ;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    height: 60px;
+    width: 100%;
+}
+nav >div> .btn{
+    background-color: white !important;
+    text-align: center;
+    color:  #656565 !important;
+}
+#login{
+    color: #8a3bee;
+    border: 2px solid #8a3bee;
+    width: 80px;
+}
+div>p{
+    color: #656565;
+    font-weight: 530;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heroheading{
+    display: flex;
+    flex-direction: column;
+}
+div>h1,form>h2,div>h4{
+    font-style: italic;
+}
+.hero-heading {
+    position: relative;
+    width: 85%;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(43, 47, 52);
+}
+.firstpage>div>div>div>div>div{
+margin-inline: 10px;
+}
+.firstpage>div>div>div>div>div>p{
+    font-size: 100% !important;
+    width: 100% !important;
+    }
+h4{
+    line-height: 100% !important;
+    margin-bottom: 0% !important;
+    font-size: 10% !important;
+}
+#course{
+    font-weight: 700;
+}
+.courses .card{
+    margin-inline: 10px !important;
+}
+#fst{
+    color:blueviolet;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div>input, .btn{
+    border: none;
+    padding: 1% !important;
+    box-sizing: border-box;
+    margin-inline: 2%;
+    
+}
+
+.input:hover{
+    box-shadow: 0px 0px 5px skyblue;
+    border-radius: 5px;
+}
+input:focus{
+outline: none;
+}
+.input{
+    padding-inline: 5%;
+    width: 100%;
+}
+form{
+    border-radius: 20px !important;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px blueviolet;
+}
+.btn{
+    border-radius: 5px !important;
+    background-color: #8a3bee !important;
+    color: white !important;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-inline: 10px;
+}
+.bar{
+    width: 80%;
+    box-shadow: 0px 0px 1px black;
+    padding-inline: 0.5%;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    overflow: hidden;
+    width: 100%;height: 100%;
+}
+ul>li{
+    list-style-type: none;
+}
+ul>li:nth-child(2){
+    text-align: left;
+}
+.Download{
+    border: 1px solid  #8a3bee !important ;
+}
+.card{
+    box-shadow: 0px 0px 2px  #8a3bee !important ;;
+}
+.SecondPage{
+    height: 100vh;
+    flex: 1vh 8vh auto !important;
+    width: 100vw;
+}
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.card-section>div{
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+    height: 100% !important;
+}
+.lastpage{
+    padding-inline: 2vw;
+    height: 100vh;
+}
+div>img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+}
+.section-3>div>:first-child{
+    font-size: 80% ;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.card>div>div>p{
+    box-shadow: 0px 0px 2px aqua ;
+    border-radius: 20px;
+    line-height: 100%;
+    margin-inline-start: 3px;
+}
+section{
+    box-shadow: 1px 1px 1px aqua;
+    flex-wrap: wrap;
+    margin: 3%;
+    overflow: hidden;
+}
+button:hover{
+    transform: scale(1.05);
+}
+@media screen and (max-width:970px){
+    section>div{
+        flex-wrap: wrap;   
+    }
+    .bar,.card{
+        width: 100%;
+        height: auto !important;
+    }
+   .card-section{
+    overflow-y: scroll;
+    width: 100%;
+   }
+   .card-section .card{
+    width: 100% !important;
+   }
+   section{
+        box-shadow: none;
+        height: auto !important;
+        overflow-y: scroll;
+   }
+    input{
+        width: 90%;
+    }
+    .courses{
+        width: 94vw !important;
+        height: auto !important;
+    }
+    .courses>div>div{
+        width: 95% !important;
+    }
+    .card>div{
+        text-wrap: balance !important;
+        margin-bottom: 10px !important;
+    }
+    .heroheading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 120% !important;
+    }
+    .courses .card{
+        margin: 10px !important;
+    }
+    nav{
+        flex-direction: column !important;
+        height: 200px !important;
+        justify-content: top;
+        align-items:center;
+    }
+    nav>button{
+        margin: 20px !important;
+    }
+    #firstline{
+        margin-top: 210px !important;
+    }
+    nav>svg{
+        transform: scale(2.5);
+    }
+}
